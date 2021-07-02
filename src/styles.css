@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
+
+* {
+    font-family: 'Hind Siliguri', sans-serif; 
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.banner{
+    background-image: url('https://i.imgur.com/2Wg03II.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.f-70{
+    font-size: 70px;
+}
+
