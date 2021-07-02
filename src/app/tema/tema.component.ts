@@ -26,6 +26,7 @@ export class TemaComponent implements OnInit {
     }
     //toda vez que inicar a pagina ele vai procurar os temas cadastrados
     this.findAllTemas()
+    this.temaService.refreshToken()
   }
 
   cadastrar(){
