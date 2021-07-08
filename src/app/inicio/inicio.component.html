@@ -71,8 +71,8 @@
               <p class="card-text">{{item.texto}}</p>
               <p class="card-text"><small class="text-muted">{{item.date | date: 'dd/MM/yyyy'}} às {{item.date | date: 'HH:mm'}}</small></p>
 
-            <a class="text-info me-3" href="">Editar</a>  
-            <a class="text-danger me-3" href="">Apagar</a>  
+            <a [routerLink]="['/postagem-edit', item.id]" class="text-info me-3" href="">Editar</a>  
+            <a [routerLink]="['/postagem-delete', item.id]" class="text-danger me-3" href="">Apagar</a>  
               
             </div>
           </div>
